@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="subraction of  numbers"/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:09:33 AM"/>
+        <attribute name="created" value="QWRtaW47REVTS1RPUC1WRjJOOTA4OzIwMjYtMDEtMDY7MTA6MDM6NTYgQU07Mjc3OA=="/>
+        <attribute name="edited" value="QWRtaW47REVTS1RPUC1WRjJOOTA4OzIwMjYtMDEtMDY7MTA6MDk6MzMgQU07MzsyODg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <assign variable="num1" expression="14"/>
+            <assign variable="num2" expression="23"/>
+            <output expression="num1-num2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

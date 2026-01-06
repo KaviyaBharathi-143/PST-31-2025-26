@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="even odd"/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:49:10 AM"/>
+        <attribute name="created" value="QWRtaW47REVTS1RPUC1WRjJOOTA4OzIwMjYtMDEtMDY7MTA6MzE6NTcgQU07Mjc4MA=="/>
+        <attribute name="edited" value="QWRtaW47REVTS1RPUC1WRjJOOTA4OzIwMjYtMDEtMDY7MTA6NDk6MTAgQU07MjsyODg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <declare name="radius" type="Integer" array="False" size=""/>
+            <assign variable="radius" expression="20"/>
+            <assign variable="c" expression="2*3.14*radius"/>
+            <output expression="&quot;the circumference of the circle is&quot; &amp;c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
